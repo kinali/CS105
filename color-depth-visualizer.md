@@ -13,7 +13,7 @@ Use the controls in the embedded app to compare:
 
 - High Color (16-bit RGB565)
 - True Color (24-bit RGB888)
-- Deep Color (10-bit RGB101010)
+- Deep Color (30-bit RGB101010)
 
 [Open full app in new tab]({{ '/color-depth-viz/index.html' | relative_url }}){: target="_blank" }
 
