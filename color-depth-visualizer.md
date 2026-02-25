@@ -15,9 +15,12 @@ Use the controls in the embedded app to compare:
 - True Color (24-bit RGB888)
 - Deep Color (10-bit RGB101010)
 
-<iframe
-  src="{{ '/color-depth-viz/index.html' | relative_url }}"
-  width="100%"
-  height="900"
-  style="border: 1px solid #ccc; border-radius: 8px;">
-</iframe>
+[Open full app in new tab]({{ '/color-depth-viz/index.html' | relative_url }}){: target="_blank" }
+
+<div style="position:relative; width:100%; height:80vh; min-height:700px;">
+  <iframe
+    src="{{ '/color-depth-viz/index.html' | relative_url }}"
+    style="position:absolute; inset:0; width:100%; height:100%; border:1px solid #ccc; border-radius:8px;"
+    loading="lazy">
+  </iframe>
+</div>
