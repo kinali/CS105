@@ -2,6 +2,7 @@
 layout: default
 title: Color Depth Visualizer
 parent: Information Layer
+grand_parent: Layers
 has_children: true
 nav_order: 1
 ---
